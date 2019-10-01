@@ -1,9 +1,40 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <img alt="Vue logo" src="../assets/gato01.jpg">
+  <v-card
+          class="mx-auto"
+          max-width="400"
+  >
+    <v-img
+            class="white--text"
+            height="200px"
+            src="https://i.ytimg.com/vi/Hlz7ass3gRk/maxresdefault.jpg"
 
-  </div>
+    >
+      <v-card-title class="align-end fill-height">Top 1 Cat</v-card-title>
+    </v-img>
+
+    <v-card-text>
+      <span>Number 1</span><br>
+      <span class="text--primary">
+        <span>Cat</span><br>
+        <span>Smart face</span>
+      </span>
+    </v-card-text>
+
+    <v-card-actions>
+      <v-btn
+              text
+              color="orange"
+      >
+        Share
+      </v-btn>
+      <v-btn
+              text
+              color="orange"
+      >
+        Explore
+      </v-btn>
+    </v-card-actions>
+  </v-card>
 </template>
 
 <script>
