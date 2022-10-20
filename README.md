@@ -1,4 +1,4 @@
-# photos-app 2021
+# photos-app 2022
 
 ## Project setup
 ```
